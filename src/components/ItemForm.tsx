@@ -38,7 +38,7 @@ function ItemForm(props: FormProps) {
             },
           },
         });
-        location.reload();
+        alert("And so it was…");
       }}
     >
       <SpritePicker sprites={sprites} handleClick={setSpriteIndex} />
@@ -52,7 +52,12 @@ function ItemForm(props: FormProps) {
       <EffectPicker effects={effects} handleClick={setEffect} />
       <Button
         label="Submit"
-        disabled={name === "" || description === "" || spriteIndex === -1}
+        disabled={
+          name === "" ||
+          description === "" ||
+          spriteIndex === -1 ||
+          effect.property === ""
+        }
       />
     </form>
   );

@@ -13,7 +13,7 @@ interface EffectPickerProps {
 }
 
 function EffectPicker(props: EffectPickerProps) {
-  const [selected, setSelected] = React.useState(props.effects[0]);
+  const [selected, setSelected] = React.useState({ property: "", modifier: 0 });
 
   return (
     <StyledDiv>
