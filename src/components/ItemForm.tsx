@@ -38,6 +38,7 @@ function ItemForm(props: FormProps) {
             },
           },
         });
+        location.reload();
       }}
     >
       <SpritePicker sprites={sprites} handleClick={setSpriteIndex} />
