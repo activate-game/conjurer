@@ -1,0 +1,78 @@
+@import "~normalize.css";
+
+@font-face {
+  font-family: "Skullboy";
+  src: local("ChevyRay - Skullboy"),
+    url("https://s3.amazonaws.com/blackguard/ChevyRaySkullboy.ttf")
+      format("truetype");
+}
+
+@font-face {
+  font-family: "Magic Book";
+  src: local("ChevyRay - Magic Book"),
+    url("https://s3.amazonaws.com/blackguard/fonts/ChevyRayMagicBook.ttf")
+      format("truetype");
+}
+
+:root {
+  --headline: "Skullboy", monospace;
+  --body: "Magic Book", monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #333;
+  font: 24px/1.45 var(--body);
+  image-rendering: crisp-edges;
+  color: #252525;
+}
+
+a {
+  text-decoration: none;
+}
+
+input,
+optgroup,
+select,
+textarea {
+  font-family: var(--body);
+  font-size: 18px;
+}
+
+label,
+input,
+textarea {
+  display: block;
+}
+
+label,
+button {
+  font-family: var(--headline);
+}
+
+input,
+textarea {
+  width: 100%;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--headline);
+  margin: 0;
+}
+
+#root {
+  padding: 30px;
+}
