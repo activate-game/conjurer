@@ -36,4 +36,4 @@ If you submit a PR, please adhere to the [Code of Conduct](https://github.com/ac
 ## Licenses
 
 * This project is [GPL-3.0-or-later © Nicholas Scheurich](https://github.com/activate-game/conjurer/blob/master/LICENSE).
-* The remote assets used in this project are copyright Oryx Design Labs and Chevy Ray, licensed to [@ngscheurich](). Reuse or redistribution of these assets is strictly prohibited.
+* The remote assets used in this project are copyright [Oryx Design Labs](https://www.oryxdesignlab.com/products/tiny-dungeon-tileset) and [Chevy Ray](https://chevyray.itch.io/pixel-fonts), licensed to [@ngscheurich](). Reuse or redistribution of these assets is strictly prohibited.
